@@ -1,0 +1,15 @@
+Take two numbers a,b and return the bigger number.
+
+Program code:
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int biggerNumber = Math.max(a, b);
+        System.out.println(biggerNumber);
+        scanner.close();
+    }
+}
